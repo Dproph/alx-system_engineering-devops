@@ -1,2 +1,2 @@
 #!/bin/bash
-tree -ad | tail -n 1
+find . -type d -not -name | wC -l
