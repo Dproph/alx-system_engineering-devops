@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$WATER + $STIR" | awk -v "OFMT=bestchol" '{print $0+0}'
+bc -l <<< "ibase=water;obase=bestchol;${WATER}+${STIR}"
